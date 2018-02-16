@@ -1,0 +1,15 @@
+# OS X files
+.DS_Store
+Thumbs.db
+
+# Generated files
+npm-debug.log
+package-lock.json
+.yarn-error.log
+node_modules
+dist
+
+# Intellij project files
+.idea
+*.iml
+
