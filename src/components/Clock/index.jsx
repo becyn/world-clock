@@ -57,7 +57,7 @@ export class Clock extends React.Component {
           <span>{country}</span>
         </div>
         <div className={styles['date-weekday']}>
-          <span className={styles.date}>{`${momentDatetime.format('DD')} `}</span>
+          <span className={styles.date}>{momentDatetime.format('DD')}</span>
           <span className={styles.weekday}>{momentDatetime.format('dd')}</span>
         </div>
         <div className={styles.face}>

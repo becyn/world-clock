@@ -1,7 +1,7 @@
 .container {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     position: relative;
     margin-top: 30px;
 }
@@ -21,6 +21,7 @@
     position: absolute;
     display: flex;
     top: -30px;
+    left: -8px;
     align-items: flex-end;
 }
 
@@ -31,14 +32,14 @@
 
 .weekday {
     position: absolute;
-    font-size: 10px;
+    font-size: 20px;
     margin-left: 5px;
-    right: -14px;
+    right: -20px;
     bottom: 2px;
 }
 
 .date {
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .face {
